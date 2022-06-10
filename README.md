@@ -3,6 +3,15 @@
 ## Overview
 The PeopleWeave Project analyzes relationships between millions of CS researchers to create an algorithm to match researchers with similar interests. 
 
+## Setup
+1. Clone repo + install dependencies
+      - Clone this repository onto local drive
+      - Install dependencies:
+         ```
+         pip install -r requirements.txt
+         ```
+2. Download dataset (view link under "Resources") and save as dblp.xml
+
 ## Usage
 ### parse_xml.ipynb: 
   - extracts data from [dblp](https://dblp.org/) dataset containing information about 6+ million CS research papers. Reads the data into a social graph relating researchers.
