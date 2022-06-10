@@ -1,8 +1,6 @@
 networkx
 numpy
 pandas
-os
-sys
 lxml
 naturalsort
 yake
